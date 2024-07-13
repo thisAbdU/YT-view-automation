@@ -17,7 +17,7 @@ This bot automatically increases YouTube video views using proxies and browser f
 ## Setting Up the Environment
 Before running bot.py, ensure that Python can locate the config package and other dependencies. You can do this by modifying the Python path at runtime. Add the following lines at the beginning of bot.py:
 
-# Add the directory containing the config package to the Python path
+## Add the directory containing the config package to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 After updating the Python path, you can run bot.py from the command line:
